@@ -125,10 +125,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <souassrce>17</souassrce>
-                    <target>17</target>
-                    <release>17</release>
-                    <verbose>true</verbose>
+                    <source>11</source>
                     <compilerArgument>-parameters</compilerArgument>
                     <annotationProcessorPaths>
                         <path>
@@ -160,4 +157,3 @@
     </build>
 
 </project>
-
